@@ -1,0 +1,15 @@
+﻿{
+  "name": "app_artes-buho",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Base deployable para APP_ARTES-BUHO en Coolify",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "check": "node --check src/server.js"
+  }
+}
